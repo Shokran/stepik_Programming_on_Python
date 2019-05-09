@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+l = (a, b, c)
+ls = sorted(l)
+print(ls[2])
+print(ls[0])
+print(ls[1])
